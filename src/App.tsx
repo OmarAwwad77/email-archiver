@@ -11,7 +11,7 @@ const startDate = new Date('2019-5-1');
 const endDate = new Date('2020-7-4');
 
 // number of fake emails to be created
-const emailCount = 10;
+const emailCount = 50;
 const recentEmailCount = 3;
 // generates fake emails using faker.js
 const allEmails = getFakeEmails(

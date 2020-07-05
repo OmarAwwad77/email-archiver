@@ -22,7 +22,7 @@ const EmailDetails: React.FC<Props> = ({ email }) => {
 				<span className='title'>Subject: </span>
 				{subject}
 			</span>
-			<span>
+			<span className='body'>
 				<span className='title'>Body: </span>
 				{body}
 			</span>

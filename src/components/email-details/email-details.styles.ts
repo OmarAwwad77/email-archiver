@@ -7,7 +7,8 @@ export const Wrapper = styled.div`
 	align-items: center;
 	padding: 1rem 2rem;
 	min-height: 30vh;
-	min-width: 30vw;
+	width: 70vw;
+	max-width: 70rem;
 
 	& > * {
 		text-align: center;
@@ -24,8 +25,17 @@ export const Wrapper = styled.div`
 		font-weight: 700;
 	}
 
+	.body {
+		border-top: 1px solid #ccc;
+		padding-top: 1rem;
+	}
+
 	.attachment {
 		display: flex;
 		align-items: center;
+	}
+
+	@media only screen and (max-width: 600px) {
+		width: 80vw;
 	}
 `;

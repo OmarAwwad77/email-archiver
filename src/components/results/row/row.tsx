@@ -18,7 +18,7 @@ interface Props {
 }
 
 const Row: React.FC<Props> = ({
-	email: { from, to, subject, date, conversations, hasFiles },
+	email: { from, to, subject, date, conversations, hasFiles, body },
 	setClickedEmail,
 }) => {
 	const { orderBy } = useContext(OrderContext);
